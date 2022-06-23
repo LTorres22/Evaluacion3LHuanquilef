@@ -33,8 +33,9 @@ namespace Evaluacion3Web
         protected void agregarBtn2_Click(object sender, EventArgs e)
         {
             string medidorLecturas = this.medidorDd1.SelectedValue.ToString();
-            string fechaLecturas = this.Calendar1.SelectedDate.ToString();
-            //DateTime fechaLecturas = DateTime.Now.ToString("yyyy-MM-dd");
+            DateTime tomorrow = DateTime.Today.AddDays(1);
+            Calendar1.TodaysDate = tomorrow;
+            DateTime fechaLecturas = this.Calendar1.TodaysDate;
             int horaLecturas = Convert.ToInt32(this.horaTxt.Text.Trim());
             int minutosLecturas = Convert.ToInt32(this.minutosTxt.Text.Trim());
             string consumoLecturas = this.consumoTxt.Text.Trim();
