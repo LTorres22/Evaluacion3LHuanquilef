@@ -18,7 +18,18 @@
                 </div>
                 <div>
                     <label for="fechaTxt">Fecha:</label>
-                    <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                    <asp:Calendar ID="Calendar1" runat="server"
+                         SelectionMode="DayWeekMonth" 
+           ShowGridLines="True" 
+           OnSelectionChanged="Calendar1_SelectionChanged">
+
+         <SelectedDayStyle BackColor="Yellow"
+                           ForeColor="Green">
+         </SelectedDayStyle>
+
+      </asp:Calendar>  
+
+      <asp:Label id="Label1" runat="server" />
                 </div>
                 <div class="form-group">
                     <label for="horaTxt">Hora:</label>

@@ -59,5 +59,13 @@ namespace Evaluacion3Web
             this.mensajeLb1.Text = "La Lectura ha sido registrada";
             Response.Redirect("VerLecturas.aspx");
         }
+
+        protected void Calendar1_SelectionChanged(Object sender, EventArgs e)
+        {
+            for (int i = 0; i <= Calendar1.SelectedDates.Count - 1; i++)
+            {
+                Label1.Text += Calendar1.SelectedDates[i].ToShortDateString();
+            }
+        }
     }
 }
