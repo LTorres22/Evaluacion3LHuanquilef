@@ -1,4 +1,4 @@
-﻿v b<%@ Page Title="" Language="C#" MasterPageFile="~/MenuPrincipal.Master" AutoEventWireup="true" CodeBehind="AgregarLectura.aspx.cs" Inherits="Evaluacion3Web.AgregarLectura" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MenuPrincipal.Master" AutoEventWireup="true" CodeBehind="AgregarLectura.aspx.cs" Inherits="Evaluacion3Web.AgregarLectura" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenido" runat="server">
 
 <div class="row">
