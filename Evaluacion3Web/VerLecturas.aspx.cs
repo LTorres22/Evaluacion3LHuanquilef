@@ -43,6 +43,6 @@ namespace Evaluacion3Web
                 lecturasDAL.EliminarLectura(medidorLecturas);
                 cargaGrilla();
             }
-        }        
+        }
     }
 }

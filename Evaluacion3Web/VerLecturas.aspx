@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MenuPrincipal.Master" AutoEventWireup="true" CodeBehind="VerLecturas.aspx.cs" Inherits="Evaluacion3Web.VerLecturas" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenido" runat="server">
 
-    <div class="row">
+<div class="row">
         <div class="col-lg-6 mx-auto">
             <div class="card">
                 <div class="card-header bg-success text-white">
